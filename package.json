@@ -8,12 +8,14 @@
     "build:dev": "webpack --config build/webpack.config.js",
     "watch": "webpack --config build/webpack.config.js --watch",
     "start": "node ./dist/main.min.js",
-    "start:dev": "node ./dist/main.js"
+    "start:dev": "node ./dist/main.js",
+    "build:exe": "node build.js"
   },
   "author": "MoT3rror <joshbixler@sbcglobal.net>",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "launchui-packager": "^0.1.1",
     "vuido": "^0.2.0"
   },
   "devDependencies": {
